@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #6a737a;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.a {
+    padding: 10px 0 10px 20px;
+
+}
+
+.b {
+    padding: 20px 20px;
+    display: flex;
+    border-top: 1px solid #e9ecef;
+}
+
+.c1 {
+    padding: 10px 30px;
+    flex: 1;
+    height: 240px;
+}
+
+.c2 {
+    box-sizing: border-box;
+    flex: 5;
+}
+
+.sp1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+}
+.sp2{
+    color: #35c0c5;
+    font-size: 25px;
+    font-weight: bold;
+}
+select {
+    color: #6a737a;
+    border: #99a6b0 solid 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.c3 {
+    flex: 2;
+    text-align: center;
+}
+
+input {
+    border: #99a6b0 solid 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.c3 input {
+    width: 50px;
+    text-align: center;
+}
+
+.c3 div button {
+    font-size: 15px;
+    color: #6a737a;
+    background: none;
+    border: none;
+}
+.c3 div button:hover{
+    color: black;
+}
+
+.c4 {
+    flex: 2;
+    text-align: center;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-top: 1px solid #e9ecef;
+}
+
+.r2 {
+    width: 60%;
+}
+
+.r2-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.r2-1>input{
+    width: 250px;
+}
+.r2-2 {
+    width: 100%;
+    display: flex;
+}
+
+.r2-2>input {
+    flex: 1;
+
+}
+.b3{
+    display: flex;
+    border-top: 1px solid #e9ecef;
+    padding: 20px;
+}
+.c1-2{
+    flex: 6;
+}
+.c1-2>div>button{
+    border: none;
+    color: white;
+    background-color: #35c0c5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.c1-2 div button:hover{
+    background-color: #298689;
+}
+.b4{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+    border-top: 1px solid #e9ecef;
+}
+.b4 button{
+
+    width: 250px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #35c0c5;
+    border-radius: 5px;
+}
+.b4 button:hover{
+    background-color: #298689;
+}

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 986px;
+    margin: 300px;
+    position: relative;
+    display: flex;
+    margin-top: 200px;
+  }
+  .signin {
+    width: 30%;
+    background-color: antiquewhite;
+    height: 500px;
+    position: relative;
+  }
+  .signin img {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 140px;
+    margin-top: 60px;
+  }
+  .signin a {
+    text-decoration: none;
+  }
+  .signin .facebook {
+    background-color: #3b5999;
+    color: white;
+    padding: 7px 50px 7px 30px;
+    border-radius: 2px;
+    position: absolute;
+    top: 180px;
+    left: 75px;
+  }
+  .signin .twiter {
+    background-color: #27aced;
+    padding: 7px 73px 7px 30px;
+    border-radius: 2px;
+    position: absolute;
+    top: 225px;
+    left: 75px;
+    color: white;
+    text-align: center;
+  }
+  .signin .google {
+    background-color: #c42f11;
+    padding: 7px 68px 7px 30px;
+    border-radius: 2px;
+    position: absolute;
+    top: 270px;
+    left: 75px;
+    color: white;
+  }
+  .login {
+    background-color: rgb(117, 110, 99);
+    width: 550px;
+  }
+  .login h2 {
+    padding: 40px 0px 80px 220px;
+    font-size: 40px;
+  }
+  .login form {
+    margin: 0px 0px 0px 120px;
+  }
+  .user input {
+    width: 300px;
+    height: 32px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  .user i {
+    background-color: #27aced;
+    padding: 8.5px 9px 10.5px 9px;
+  }
+  .password input {
+    width: 300px;
+    height: 32px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+  }
+  .password i {
+    background-color: #3b5999;
+    padding: 8.5px 9px 10.5px 9px;
+  }
+  button {
+    width: 345px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+    background-color: #c42f11;
+    color: white;
+  }
+  .mk {
+    text-decoration: none;
+    padding-right: 160px;
+  }
+  .mk:hover {
+    text-decoration: solid;
+    color: #3b5999;
+  }
+  .dk:hover {
+    text-decoration: none;
+    color: #3b5999;
+  }
+  

@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #440a67;
+    --primary-color-blur: #430a6750;
+    --secondary-color: #4ca1a3;
+    --tertiary-color: #b4aee8;
+    --orange: #fb9224;
+    --red: #ff3333;
+    --light-red: #fda8a8;
+    --gray: #f4f4f4;
+    --orange: #F7941E;
+    --light-orange: rgba(247, 148, 30, 0.2);
+    --black-text: #333;
+    --gray-text: #888;
+    --white: #fff;
+}
+.wrappers{
+    width: 1024px;
+    margin: auto;
+}
+.menu-7{
+    margin: 20px 0px 10px 0px;
+    font-size: 14px;
+}
+h1{
+    margin: 20px 0px 10px 0px;
+    font-size: 28px;
+}
+.rowas{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    grid-gap: 16px;
+}
+.cols img{
+    width: 480px;
+    padding: 10px 10px 10px 10px;
+}
+.productss h1{
+    color: red;
+}
+.productss del{
+    font-size: 30px;
+}
+.gp{
+    float: right;
+    font-size: 14px;
+}
+.row4s{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+}
+.colls{
+    background-color: #888;
+    font-size: 10px;
+    padding: 10px 30px 10px 30px;
+}
+.colls:hover{
+    background-color: wheat;
+}
+input{
+    margin: 5px 0px 5px 0px;
+}
+.khung{
+    line-height: 20px;
+}
+.khung2 button{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+}
+.khung3{
+    width: 50%;
+    float: left;
+    height: 60px;
+    background-color: blue;
+}
+.khung{
+    margin: 10px 0px 30px 0px;
+    background-color: #888;
+    padding: 5px 10px 5px 10px;
+}
+.spphu h1{
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+}
+.spphu img{
+    width: 200px;
+}
+.spphu {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+}
+.spphu a{
+    font-size: 24px;
+}

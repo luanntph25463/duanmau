@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #272629;
+    color: white;
+    border-radius: 5px;
+  }
+  .flex {
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #676767;
+  }
+  .flex .name {
+    width: 50%;
+  }
+  .name h2 {
+    font-size: 40px;
+    padding-bottom: 60px;
+    margin-left: 180px;
+    color: #9d792a;
+  }
+  .name img {
+    width: 40%;
+    border-radius: 50%;
+  
+    margin-right: 50px;
+  }
+  .name a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+  }
+  .name a:hover {
+    color: #3b5999;
+  }
+  .name .gioithieu {
+    display: flex;
+    border-top: 3px solid #676767;
+    padding-top: 30px;
+    margin-right: 40px;
+  }
+  .gioithieu .text {
+    font-size: 20px;
+  }
+  .information {
+    margin-left: 40px;
+    max-width: 50%;
+  }
+  .information a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 300px;
+    color: white;
+  }
+  .information .contact {
+    border-top: 3px solid #676767;
+    padding-top: 40px;
+    line-height: 30px;
+  }
+  .contact i {
+    color: #649b92;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .contact samp {
+    font-size: 18px;
+  }
+  .information .mang {
+    border-top: 3px solid #676767;
+    padding-top: 40px;
+    line-height: 30px;
+  }
+  .mang i {
+    color: #649b92;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .mang samp {
+    font-size: 18px;
+  }
+  
+  .dan {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 150px;
+  }
+  .signin {
+    width: 30%;
+    background-color: antiquewhite;
+    height: 500px;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .signin img {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 140px;
+    margin-top: 60px;
+  }
+  .signin a {
+    text-decoration: none;
+  }
+  .signin .facebook {
+    background-color: #3b5999;
+    color: white;
+    padding: 7px 50px 7px 30px;
+    border-radius: 2px;
+    position: absolute;
+    top: 180px;
+    left: 75px;
+  }
+  .signin .twiter {
+    background-color: #27aced;
+    padding: 7px 73px 7px 30px;
+    border-radius: 2px;
+    position: absolute;
+    top: 225px;
+    left: 75px;
+    color: white;
+    text-align: center;
+  }
+  .signin .google {
+    background-color: #c42f11;
+    padding: 7px 68px 7px 30px;
+    border-radius: 2px;
+    position: absolute;
+    top: 270px;
+    left: 75px;
+    color: white;
+  }
+  .login {
+    width: 550px;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .login h2 {
+    padding: 40px 0px 80px 220px;
+    font-size: 40px;
+    color: black;
+  }
+  .login form {
+    margin: 0px 0px 0px 120px;
+  }
+  .user input {
+    width: 300px;
+    height: 32px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  .user i {
+    background-color: #27aced;
+    padding: 8.5px 9px 10.5px 9px;
+  }
+  .password input {
+    width: 300px;
+    height: 32px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+  }
+  .password i {
+    background-color: #3b5999;
+    padding: 8.5px 9px 10.5px 9px;
+  }
+  button {
+    width: 345px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+    background-color: #c42f11;
+    color: white;
+  }
+  .mk {
+    text-decoration: none;
+    padding-right: 140px;
+  }
+  .mk:hover {
+    text-decoration: solid;
+    color: #3b5999;
+  }
+  .dk:hover {
+    text-decoration: none;
+    color: #3b5999;
+  }
+  

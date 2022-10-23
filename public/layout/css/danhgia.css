@@ -1,0 +1,250 @@
+.contai {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    
+}
+
+.flex-header{
+    display: flex;
+}
+.star{
+    width: 55%;
+    margin-left: 30px;
+    display: flex;
+}
+.star .hoi{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+.hoi a{
+    background-color: #35c0c5;
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    margin-left: 21px;
+    border-radius: 5px;
+
+}
+.hoi p{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.hoi a:active{
+
+}
+.hidden{
+    display: none;
+}
+.header{
+    width: 45%;
+    margin-bottom: 80px;
+   
+    
+}
+.header .flexx{
+    text-align: center;
+    padding-top: 15px;
+}
+.flexx .text{
+    font-size: 20px;
+}
+.flexx .number{
+    font-size: 48px;
+    color: #35c0c5;
+    text-decoration: none;
+    font-weight: bold;
+}
+.flexx i{
+    color: #d6ae5d;
+    padding-right: 4px;
+    font-size: 20px;
+}
+.flexx .phu{
+    color: #99a2aa;
+}
+
+
+
+
+.ykien {
+    margin-top: 40px;
+    align-items: center;
+    padding-bottom: 15px;
+    display: block;
+    list-style: none;
+    position: relative;
+}
+.ykien p{
+    margin-left: 80px;
+    font-size: 18px;
+}
+.ykien img {
+    border-radius: 50%;
+    width: 5%;
+
+}
+
+.ykien .icon { 
+    position: absolute;
+    top:-4px;
+    left: 70px;
+    line-height: 30px;
+    color: #ea9d02;
+}
+.icon .name{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.icon i{
+    padding-right: 3px;
+}
+.icon samp{
+    padding-left: 5px;
+    color: rgb(149, 141, 141);
+    font-size: 16px;
+}
+
+.like{
+    margin-left: 80px;
+    font-size: 19px;
+    color: rgb(59, 59, 218);
+}
+.like-2{
+    margin-left: 150px;
+    font-size: 19px;
+    color: rgb(59, 59, 218);
+}
+
+.pgae{
+    text-align: center;
+}
+.page ul{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    margin-left: 500px;
+}
+.page ul li{
+    list-style: none;
+
+}
+.page ul li a{
+    text-decoration: none;
+    border: 1px solid #c5cfd8;
+    border-radius: 5px;
+    padding: 7px 10px 7px 15px;
+    margin-right: 10px;
+}
+.page ul li a:hover{
+    background-color: #cb1c22;
+    color: white;
+}
+
+.container-2{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-top: 1px solid #444;
+    padding-top: 80px;
+}
+.container-2 .icon{
+    align-items: center;
+}
+.icon .coment{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.icon .rep{
+    text-decoration: none;
+    color: rgb(59, 59, 218);
+    font-size: 18px;
+    
+}
+.chekbox{
+    margin-left: 100px;
+    margin-top: 30px;
+    border-left: 6px solid #c5cfd8;
+    padding-left: 8px;
+    position: relative;
+}
+.chekbox .user-nhap{
+    position: absolute;
+   display: none;
+   padding-top: 30px;
+}
+.user-nhap input{
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    position: relative;
+    padding-left: 5px;
+    
+    
+}
+.user-nhap button{
+    position: absolute;
+    width: 30px;
+    height: 33px;
+    
+    left: 287px;
+    border-radius: 6px;
+    background-color: #35c0c5;
+}
+.giaotiep :hover  .user-nhap{
+    display: block;
+}
+.chekbox .name{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding-right: 10px;
+
+}
+.chekbox i{
+    color:rgb(59, 59, 218) ;
+    font-size: 20px;
+}
+.chekbox .chuc{
+    color: rgb(59, 59, 218);
+    text-decoration: none;
+    font-size: 18px;
+}
+.chekbox p{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.container-2{
+    margin-bottom: 140px;
+}
+.nhap{
+    position: relative;
+}
+.nhap button{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 29px;
+    left: 1090px;
+    background-color: #35c0c5;
+    color: white;
+    border-radius: 3px;
+}
+.container-2 .input{
+    margin-top: 15px;
+    width: 1200px;
+    height: 80px;
+    border-radius: 3px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.giaotiep{
+    margin-bottom: 100px;
+}
+
+

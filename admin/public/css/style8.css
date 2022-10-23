@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/general/bookpatternOriginal.jpg);
+}
+form{
+    background-color: aqua;
+    margin: auto;
+    width: 700px;
+    padding: 30px 50px 30px 50px;
+    font-size: larger;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: inset 5px gold;
+}
+label{
+    padding-right: 15px;
+    color: black;
+}
+
+.insearch{
+    margin: 50px 150px 10px 50px;
+}
+.insearch input{
+    margin-right: 70px;
+    float: right;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+button{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    font-size: larger;
+}
+button:hover{
+    background-color: blueviolet;
+}
+table,th,td{
+    border: 3px green;
+}
